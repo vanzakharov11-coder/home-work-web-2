@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+  <title>Home work</title> 
+   
+</head>
+
+<body>
+
+  <header>
+    <img src="images/icons8-bmw-48.png" wight=100 height=100 align=left alt="">
+    
+  </header>
+    <nav>
+        <ul class="menu">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#top">Подвал сайта</a></li>
+        <li><a href="https://kubsu.ru/?ysclid=m0usro7hg212314871">КубГУ</a></li>
+    </ul>
+    </nav>
+  <main>
+     <h1>13</h1>
+    <div class="div1">
+     
+      <br>
+    <h2>Список гиперссылок</h2>
+    </div>
+    <ul style="line-height: 30px; ;">
+      <li><a href="http://kubsu.ru">абсолютнуая cсылочка на кубик http</a></li>
+      <li><a href="https://kubsu.ru">абсолютнуая ссылочка2 на кубик https</a></li>
+      <li>
+        <a href="https://www.kubsu.ru/ru/node/35822">
+          <img src="images/2.jpg" width="250">
+        </a>
+      </li>
+      <li><a href="newlist.html">cокращенная ссылкa на внутреннюю страницу</a></li>
+      <li><a href="index.html">cокращенная ссылкa на главную страницу</a></li>
+      <li><a href="#a1">Ссылк на фрагмент</a></li>
+      <li><a
+          href="   https://www.google.com/maps/search/?api=1&query=restaurants&query_place_id=ChIJN1t_tDeuEmsRUcIaDlA2zjU">Ссылка
+          c 3 параметрами url</a></li>
+      <li><a href="http://site.com/page?id=2">ссылка с параметром id в URL</a></li>
+      <li><a href="page.html">относительная на страницу в текущем каталоге</a></li>
+      <li><a href="https://about.google/">относительная на страницу в каталоге about</a></li>
+      <li><a href="../page.html">относительная на страницу в каталоге уровнем выше текущего</a></li>
+      <li><a href="/../../page.html">относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+      <li>контекстная в <a href="#">тексте</a> абзаца</li>
+      <li><a href="https://www.kubsu.ru/ru/direct">ссылкa на фрагмент страницы стороннего сайта</a></li>
+      <li><img src="images/3.jpg" width="411" height="146" usemap="#map"></li>
+      <p><map name="map">
+          <area shape="rect" alt="Закладка 2" coords="18,50,138,160" href="https://www.bmw.ru/ru/index.html">
+          <area shape="rect" alt="Закладка 3" coords="140,50,255,165" href="https://www.audi.com/en.html">
+          <area shape="circle" alt="Закладка 4" coords="319,110,60" href="https://www.mercedes-benz.com/en/">
+        </map></p>
+      <li><a href="">ссылкa с пустым href</a></li>
+      <li><a>ссылкa без href</a></li>
+      <li><a href="http://" rel="nofollow">ссылкa, по которой запрещен переход поисковикам</a></li>
+      <li><a href="http://" rel="noindex">ссылкa, по которой запрещен переход поисковикам</a></li>
+      <li>
+        <ol>
+          <li><a href="#">якорь<title>#</title></a></li>
+          <li><a href="#">якорь<title>#</title></a></li>
+          <li><a href="#">якорь<title>#</title></a></li>
+        </ol>
+      </li>
+      <li><a href="ftp://user:pass123@site.ru/Temp/file.txt">?</a></li>
+    </ul>
+    <div style="margin-left: 25px; margin-bottom: 25px;" st>
+      <table>
+        <tr>
+            <th colspan="4">Название таблицы</th>
+        </tr>
+        <tr>
+            <td>k1</td>
+            <td>k2</td>
+            <td>k3</td>
+            <td>k4</td>
+        </tr>
+        <tr id="qqq">
+            <td>k1</td>
+            <td>k2</td>
+            <td>k3</td>
+            <td>k4</td>
+        </tr>
+        <tr>
+            <td>k1</td>
+            <td>k2</td>
+            <td>k3</td>
+            <td>k4</td>
+        </tr>
+        <tr id="ccc">
+            <td>k1</td>
+            <td>k2</td>
+            <td>k3</td>
+            <td>k4</td>
+        </tr>
+        <tr>
+            <td>k1</td>
+            <td>k2</td>
+            <td>k3</td>
+            <td>k4</td>
+        </tr>
+    </table>
+     <h1>Form</h1>
+<form action="/" method="post" style="line-height: 30px;">
+    <label>
+        ФИО: <br />
+        <input name="field-fio"
+        placeholder="введите ФИО"
+            value="">
+    </label><br />
+    <label>
+        Номер телефона:<br />
+        <input name="filed-number"
+            type="numb"
+            placeholder="введите номер телефона"/>
+
+    </label><br />
+    <label>
+        Текстовое поле email:<br />
+            <input name="field-email"
+                type="email"
+                placeholder="введите почту" />
+    </label><br />
+    <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2024-09-09"
+          type="date" />
+      </label><br />
+
+        <label>
+            Ваши любимые языки программирования:<br />
+            <select name="field-name-11[]"
+            multiple = "multiple">
+        <option value="pas">Pascal</option>
+        <option value="c">C</option>
+        <option value="C++">C++</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="Haskel">Hascel</option>
+        <option value="Clojure">Clojure</option>
+        <option value="Prolog">Prolog</option>
+        <option value="Scala">Scala</option>
+        </select>
+        </label><br />
+
+        <label>
+            Ваша биография:<br />
+            <textarea name="field-bio"></textarea>
+        </label><br />
+
+        <label>
+            С контрактом ознакомлен:<br />
+            <input type="checkbox" checked="" name ="check-1">
+        </label><br />
+        <input type="submit" value="Сохранить">
+</form>
+  </main>
+  <footer class="footer"id="top" >
+    <div class="footer__vrapper" >
+       <a href="#!"> <img src="images/icons8-мессенджер-вконтакте-50.png" alt="vk"></a>
+        <a href="#!"><img src="images/icons8-facebook-messenger-48.png" alt="facebook"></a>
+        <a href="#!"> <img src="images/icons8-телеграм-94.png" alt="tg"></a>
+        <a href="#!"> <img src="images/icons8-твиттер-48.png" alt="twitter"></a>
+        <a href="#!"> <img src="images/icons8-whatsapp-48.png" alt="whatsup"></a>
+    </div>
+    <div class="footer__text">
+        <p class="footer-text__element">© 2024 frontend-dev.com</p>
+    </div>
+</footer>
+</body>
+
+</html>
