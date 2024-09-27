@@ -1,0 +1,154 @@
+
+
+
+body{
+	text-align: center;
+	color:black;
+
+}
+.footer{
+	
+	text-align:left;
+}
+header{
+	text-align:left;
+ 
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+	position:relative;
+	display:flex;
+	justify-content:right;
+	align-items: center;
+	margin:0;
+	padding:0;
+	list-style:none;
+	flex-wrap: wrap;
+}
+ ul div
+{
+	margin-top:0px;
+	color:black;
+}
+h2{
+  margin:0px 0px 0px 0px ;
+  text-align:left;
+}
+nav a  {
+  text-decoration: none;
+  color: rgb(7, 3, 3);
+  vertical-align: middle;
+  padding-left: 5px;
+  float:left;
+  margin: 4px 10px 2px 0px;
+
+}
+li{
+	list-style-type:none;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+div p a{
+	color:white;
+}
+table {
+	width: 50%;
+
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+	margin:auto;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+#qqq{
+	background:#efefef;
+}
+#ccc{
+	background:#efefef;
+}
+
+main{
+    margin-top: 100px;
+}
+
+table {
+	width: 50%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+	margin:auto;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+#qqq{
+	background:#efefef;
+}
+#ccc{
+	background:#efefef;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 27px;
+    color: #efefef;
+    height:200px ;
+
+    background: #000;
+    
+    }
+    
+    
+    
+    .footer__vrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 30px;
+        margin-top: 60px;
+    
+     
+        
+    }
+    
+    .footer__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .footer-text__element{
+        color: var(--header-text);
+        font-size: 16px;
+    
+    }
+    
+    
